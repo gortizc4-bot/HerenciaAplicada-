@@ -70,7 +70,21 @@ public class Main {
 
 	       System.out.println("\nGerente:");
 	       ger.mostrarDatos();
+	       System.out.println("\n");
 	    
+	       Animal animal =new Animal ();
+	       Perro perro = new Perro();
+	       System.out.println("Animal:");
+	       animal.hacersonido();
+	      
+	       
+	       System.out.println("Perro:");
+	       perro.hacersonido();
+	       
+	       
+	       
+	       
+	       
 	       
 	    	        
 	                
