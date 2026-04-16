@@ -80,7 +80,17 @@ public class Main {
 	       
 	       System.out.println("Perro:");
 	       perro.hacersonido();
+	       System.out.println("\n");
 	       
+	       Vehiculo v = new Vehiculo("Toyota", 120);
+	        Moto m = new Moto("Yamaha", 180, 600);
+
+	        System.out.println("Vehiculo:");
+	        v.mostrarInfo();
+
+	        System.out.println("\nMoto:");
+	        m.mostrarInfo();
+	   
 	       
 	       
 	       
