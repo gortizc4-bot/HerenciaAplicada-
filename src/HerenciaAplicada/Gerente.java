@@ -2,12 +2,22 @@ package HerenciaAplicada;
 
 public class Gerente extends Empleado {
 	
-	private double bonoadicional;
+	private double bono;
 
-	public Gerente(String nombre, double salario, double bonoadicional) {
+	public Gerente(String nombre, double salario, double bono) {
 		super(nombre, salario);
-		this.bonoadicional = bonoadicional;
+		this.bono = bono;
 	}
+//SOBREESCRITURA DEL METODO
+	@Override
+	public double calcularsalario() {
+		return salario + bono;
+	}
+
+	
+	
+	
+	
 
 	
 	

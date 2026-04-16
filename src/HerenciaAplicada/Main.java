@@ -51,14 +51,32 @@ public class Main {
 	        
 	    
 	   
-	                Trasporte transporte = new Trasporte(30);
-	                Bus bus = new Bus(25, "Horcones");
+	       Trasporte transporte = new Trasporte(30);
+	       Bus bus = new Bus(25, "Horcones");
 
-	                System.out.println("Transporte");
-	                transporte.descripcion();
+	       System.out.println("Transporte");
+	       transporte.descripcion();
 
-	                System.out.println("\nBus");
-	                bus.descripcion();
+	       System.out.println("\nBus");
+	       bus.descripcion();
+	       System.out.println("\n");
+	    
+	       
+	       Empleado emp = new Empleado ("Giselle", 2000); 
+	       Gerente ger = new Gerente ("Briseyda", 5000, 500); 
+	       
+	       System.out.println("Empleado:");
+	        emp.mostrarDatos();
+
+	       System.out.println("\nGerente:");
+	       ger.mostrarDatos();
+	    
+	       
+	    	        
+	                
+	                
+	                
+	                
 	            
 	        }
 	    

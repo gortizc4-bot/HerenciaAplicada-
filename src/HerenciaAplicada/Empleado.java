@@ -18,13 +18,8 @@ public class Empleado {
 	
 	
 	public void mostrarDatos() {
-		System.out.println("Nombre"+ nombre);
-		System.out.println("Salario"+ calcularsalario());
+		System.out.println("Nombre:"+ nombre);
+		System.out.println("Salario:"+ calcularsalario());
 		
 	}
-	
-	
-	
-	
-
 }
