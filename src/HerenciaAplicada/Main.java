@@ -30,9 +30,29 @@ public class Main {
 
 	        System.out.println("\nCuenta Corriente");
 	        cc.retirar(1200); // aquí sí permite por sobregiro
+	        
+	        System.out.println("\n");
+	        
+	        Producto producto = new Producto("Azucar", 10.0);
+
+	        // Producto perecedero (ya vencido)
+	        ProductoPerecedero aceite = new ProductoPerecedero(
+	            "Aceite",
+	            30.0,
+	            1, 4, 2024
+	        );
+
+	        System.out.println("=== Producto Normal ===");
+	        producto.mostrar();
+
+	        System.out.println("\n=== Producto Perecedero 1 ===");
+	        aceite.mostrar();
+
+	        
+	    }
 	    }
 	
-	    }
+	    
 
 	   
 	    
