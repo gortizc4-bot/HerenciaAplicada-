@@ -90,7 +90,15 @@ public class Main {
 
 	        System.out.println("\nMoto:");
 	        m.mostrarInfo();
-	   
+	        System.out.println("\n");
+	        
+	        Rectangulo rect = new Rectangulo(5, 3);
+	        Circulo circ = new Circulo(4);
+
+	        System.out.println("Área del Rectángulo: " + rect.calcularArea());
+	        System.out.println("Área del Círculo: " + circ.calcularArea()); 
+	        
+	        
 	       
 	       
 	       
