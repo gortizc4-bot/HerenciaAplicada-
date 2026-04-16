@@ -15,9 +15,15 @@ public class Cuenta {
 	    }
 
 	    public void retirar(double monto) {
-	        saldo -= monto;
-	        System.out.println("Retiro realizado. Saldo actual: " + saldo);
+	    	if (monto <= saldo) {
+	            saldo -= monto;
+	            System.out.println("Retiro realizado. Saldo actual: " + saldo);
+	        } else {
+	            System.out.println("Fondos insuficientes.");
+	        }
 	    }
+	    
+	    
 	}
 
 
