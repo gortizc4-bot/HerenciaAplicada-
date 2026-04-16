@@ -97,7 +97,17 @@ public class Main {
 
 	        System.out.println("Área del Rectángulo: " + rect.calcularArea());
 	        System.out.println("Área del Círculo: " + circ.calcularArea()); 
+	        System.out.println("\n");
 	        
+	        Libro libro = new Libro("Cien Años de Soledad", "Gabriel García Márquez");
+	        LibroDigital ebook = new LibroDigital("El Principito", "Antoine de Saint-Exupéry", 5.2);
+
+	        System.out.println("Libro físico:");
+	        libro.mostrarInfo();
+
+	        System.out.println("\nLibro digital:");
+	        ebook.mostrarInfo();
+	    
 	        
 	       
 	       
@@ -110,7 +120,7 @@ public class Main {
 	                
 	                
 	            
-	        }
+	        
 	    
 	   
 	    
@@ -118,7 +128,7 @@ public class Main {
 
 	        
 	    
-	    }
+	    }}
 	
 	    
 
