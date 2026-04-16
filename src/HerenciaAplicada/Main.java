@@ -42,14 +42,32 @@ public class Main {
 	            1, 4, 2024
 	        );
 
-	        System.out.println("=== Producto Normal ===");
+	        System.out.println("Producto Normal");
 	        producto.mostrar();
 
-	        System.out.println("\n=== Producto Perecedero 1 ===");
+	        System.out.println("\nProducto Perecedero 1");
 	        aceite.mostrar();
+	        System.out.println("\n");
+	        
+	    
+	   
+	                Trasporte transporte = new Trasporte(30);
+	                Bus bus = new Bus(25, "Horcones");
+
+	                System.out.println("Transporte");
+	                transporte.descripcion();
+
+	                System.out.println("\nBus");
+	                bus.descripcion();
+	            
+	        }
+	    
+	   
+	    
+	        
 
 	        
-	    }
+	    
 	    }
 	
 	    

@@ -12,7 +12,7 @@ public class Bus extends Trasporte{
 	@Override
 	public void descripcion() {
 		super.descripcion();
-		System.out.println("Ruta"+ ruta);
+		System.out.println("Ruta:" + ruta);
 	} 
 	
 	
