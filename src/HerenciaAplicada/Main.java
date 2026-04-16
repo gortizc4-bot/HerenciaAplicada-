@@ -107,6 +107,20 @@ public class Main {
 
 	        System.out.println("\nLibro digital:");
 	        ebook.mostrarInfo();
+	        System.out.println("\n");
+	        
+	        Cliente cliente1 = new Cliente(" Giselle", "30356361");
+
+	        FacturaContando fc = new FacturaContando(1, cliente1, 1000, 100);
+	        System.out.println("=== Factura Contado ===");
+	        fc.mostrarInfo();
+
+	        FacturaCredito fcr = new FacturaCredito(2, cliente1, 1000, 200, 4);
+	        System.out.println("\n=== Factura Crédito ===");
+	        fcr.mostrarInfo();
+	        fcr.mostrarCuotas();
+	    }
+	    }
 	    
 	        
 	       
@@ -129,7 +143,7 @@ public class Main {
 	        
 	    
 	    
-	    }}
+	    
 	
 	    
 
