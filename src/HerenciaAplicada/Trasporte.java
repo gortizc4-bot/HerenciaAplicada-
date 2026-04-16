@@ -8,6 +8,9 @@ public Trasporte(int capacidad) {
 	super();
 	this.capacidad = capacidad;
 }
+public void descripcion() {
+	 System.out.println("Capacidad: " + capacidad + " pasajeros");
 
+}
 
 }
